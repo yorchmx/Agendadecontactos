@@ -9,10 +9,13 @@ const db = window.localStorage
 
 btnAgregarContacto.onclick = () => {
     let contacto = {
+        id: Math.random(1,100),
         nombre: nombre.value,
         numero: numero.value,
         area: area.value,
     }
     guardarContacto(db, contacto)
 }
+
+cargarContactos(db)
 
