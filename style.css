@@ -45,4 +45,24 @@ body{
 }    
 .formulario-datos button{
     margin: 1rem 0rem;
+    background-color: dodgerblue;
+    border: 0;
+    outline: 0;
+    height: 3rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.listado-contactos{
+    display: flex;
+    flex-direction: column;
+}
+.contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 4rem;
+}
+.icono{
+    color: tomato;
+    cursor: pointer;
 }
