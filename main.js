@@ -17,5 +17,4 @@ btnAgregarContacto.onclick = () => {
     guardarContacto(db, contacto)
 }
 
-cargarContactos(db)
-
+cargarContactos(db, listadoContactos)
